@@ -18,13 +18,13 @@
  *   Free Software Foundation, Inc.,
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-import QtQuick 2.2
+import QtQuick 2.15
+import QtQuick.Controls 2.15 as QQC2
+import QtGraphicalEffects 1.15
 
-import QtQuick.Layouts 1.1
-import QtQuick.Controls 1.1
-
-import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 2.0 as PlasmaComponents
+// Plasma 6: update imports
+import org.kde.plasma.core 6.0 as PlasmaCore
+import org.kde.plasma.components 6.0 as PlasmaComponents
 
 import "../components"
 

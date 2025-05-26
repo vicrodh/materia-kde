@@ -17,7 +17,11 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.2
+import QtQuick 2.15
+import QtQuick.Controls 2.15 as QQC2
+// Plasma 6: update imports
+import org.kde.plasma.core 6.0 as PlasmaCore
+import org.kde.plasma.components 6.0 as PlasmaComponents
 
 ListView {
     id: view

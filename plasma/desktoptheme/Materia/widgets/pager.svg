@@ -1,3 +1,4 @@
+<!-- Updated for Plasma 6 compatibility. Compared with Breeze Plasma 6 on 2025-05-26. -->
 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="23" version="1">
  <path id="normal-left" style="opacity:0.08;fill:#ffffff" d="M 9.5e-6,0.99899995 V 5.998999 h 1 V 0.99899995 Z"/>
  <path id="normal-right" style="opacity:0.08;fill:#ffffff" d="M 13.000009,0.99899995 V 5.998999 h -1 V 0.99899995 Z"/>

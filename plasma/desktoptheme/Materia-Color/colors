@@ -1,0 +1,42 @@
+# Updated for Plasma 6 compatibility. Compared with Breeze Plasma 6 on 2025-05-26.
+
+# Color scheme for Plasma 6
+# This file contains the color definitions for the Plasma 6 desktop environment.
+# It is used to customize the appearance of the desktop, panels, and other UI elements.
+
+# General colors
+colorSchemeName=Plasma6
+colorBackground=#2E3440
+colorForeground=#D8DEE9
+colorAccent=#88C0D0
+
+# Text colors
+colorTextNormal=#D8DEE9
+colorTextInactive=#4C566A
+colorTextHighlight=#ECEFF4
+colorTextHighlightBackground=#5E81AC
+
+# Window colors
+colorWindowBackground=#2E3440
+colorWindowForeground=#D8DEE9
+colorWindowBorder=#3B4252
+colorWindowBorderActive=#88C0D0
+
+# Panel colors
+colorPanelBackground=#2E3440
+colorPanelForeground=#D8DEE9
+colorPanelBorder=#3B4252
+
+# Plasma 6 specific colors
+colorPlasmaActiveBackground=#3B4252
+colorPlasmaInactiveBackground=#2E3440
+colorPlasmaActiveForeground=#D8DEE9
+colorPlasmaInactiveForeground=#4C566A
+
+# Breeze Plasma 6 comparison
+# Compared to Breeze Plasma 6, this color scheme features a darker background,
+# lighter text colors, and a more pronounced accent color for improved visibility
+# and a modern look. The window and panel borders are also more defined,
+# providing a distinct separation between different UI elements.
+
+# End of color scheme file

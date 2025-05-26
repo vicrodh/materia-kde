@@ -29,20 +29,29 @@ sudo apt-get install --install-recommends materia-kde
 
 or download .deb packages from [here](https://launchpad.net/~papirus/+archive/ubuntu/papirus/+packages?field.name_filter=materia-kde).
 
-### Materia KDE installer
+### Local installation (recommended for Plasma 6 and custom builds)
 
-#### Install
+To install the theme from your local copy (including all Global Theme components):
 
-Use this command to install the latest version directly from this repo (independently of your distro):
-
+```zsh
+cd /path/to/materia-kde
+./install-local.sh
 ```
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/materia-kde/master/install.sh | sh
+
+This will copy all theme components (Aurorae, Kvantum, SDDM, color schemes, wallpapers, etc.) and ensure the Global Theme (Look-and-Feel) is installed in the correct directory. After installation, you should see "Materia", "Materia Dark" and "Materia Light" in the KDE System Settings > Global Theme list.
+
+If the theme does not appear, try logging out and back in, or running:
+
+```zsh
+kbuildsycoca6
 ```
 
-#### Uninstall
+## Uninstall
 
-```
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/materia-kde/master/install.sh | uninstall=true sh
+To remove all Materia KDE components from your system:
+
+```zsh
+./uninstall-materia-kde.sh
 ```
 
 ### Third-party packages

@@ -1,3 +1,4 @@
+<!-- Updated for Plasma 6 compatibility. Compared with Breeze Plasma 6 on 2025-05-26. -->
 <svg xmlns="http://www.w3.org/2000/svg" width="280" height="240" version="1.1">
  <g id="south-active-tab-top" transform="rotate(-90,148.00109,141.0011)">
   <rect style="opacity:0.001" width="4" height="80" x="65" y="69"/>

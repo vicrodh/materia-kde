@@ -17,7 +17,8 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.2
+import QtQuick 2.15
+import QtQuick.Controls 2.15 as QQC2
 
 ListView {
     id: view

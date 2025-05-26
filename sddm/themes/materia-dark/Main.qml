@@ -4,10 +4,10 @@
 // - Suraj Mandal from https://github.com/surajmandalcell/Elegant-sddm
 // - Breeze theme by KDE Visual Design Group
 // - SDDM Team https://github.com/sddm/sddm
-import QtQuick 2.8
-import QtQuick.Controls 2.1
-import QtGraphicalEffects 1.0
-import QtQuick.Controls.Material 2.1
+import QtQuick 2.15
+import QtQuick.Controls 2.15
+import QtGraphicalEffects 1.15
+import QtQuick.Controls.Material 2.15
 import "components"
 
 Rectangle {

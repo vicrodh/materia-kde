@@ -17,11 +17,12 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.8
-import QtQuick.Layouts 1.1
+import QtQuick 2.15
+import QtQuick.Controls 2.15 as QQC2
 
-import org.kde.plasma.core 2.0
-import org.kde.plasma.components 2.0
+// Plasma 6: update imports
+import org.kde.plasma.core 6.0 as PlasmaCore
+import org.kde.plasma.components 6.0 as PlasmaComponents
 
 ColumnLayout {
     Label {

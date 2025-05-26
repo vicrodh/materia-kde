@@ -1,3 +1,4 @@
+<!-- Updated for Plasma 6 compatibility. Compared with Breeze Plasma 6 on 2025-05-26. -->
 <svg xmlns="http://www.w3.org/2000/svg" width="109" height="125" version="1">
  <g id="minimized-bottom">
   <rect style="opacity:0.001" width="14" height="3" x="3" y="122"/>
@@ -30,7 +31,7 @@
   <rect style="opacity:0.001" width="3" height="3" x="18" y="80"/>
   <path style="opacity:0.1;fill:#dfdfdf" d="m 18,80 v 1 1 h 1 c 0,0 1,0 1,-1 v -1 h -1 z"/>
  </g>
- <g id="attention-bottom">
+ <g id="attention-bottom" transform="translate(21)">
   <rect style="opacity:0.001" width="14" height="3" x="3" y="101"/>
   <path style="opacity:0.12;fill:#f44336" d="m 3,101 v 1 1 h 14 v -1 -1 z"/>
  </g>
@@ -144,7 +145,7 @@
   <rect style="opacity:0.001" width="3" height="3" x="18" y="80"/>
   <path style="opacity:0.1;fill:#dfdfdf" d="m 18,80 v 1 1 h 1 c 0,0 1,0 1,-1 v -1 h -1 z"/>
  </g>
- <g id="focus-bottom">
+ <g id="focus-bottom" transform="translate(21)">
   <rect style="opacity:0.001" width="14" height="3" x="3" y="38"/>
   <path style="opacity:0.1;fill:#dfdfdf" d="m 3,38 v 1 1 h 14 v -1 -1 z"/>
  </g>
@@ -350,7 +351,7 @@
  </g>
  <g id="north-normal-topright" transform="translate(20,-21)">
   <rect style="opacity:0.001" width="3" height="3" x="18" y="63"/>
-  <path style="opacity:0.1;fill:#dfdfdf" d="m 18,64 v 1 1 h 1 1 v -1 c 0,-1 -1,-1 -1,-1 z"/>
+  <path style="opacity:0.1;fill:#dfdfdf" d="m 18,64 v 1 1 h 1 1 v -1 c 0,-1 0,-1 0,-1 z"/>
  </g>
  <g id="north-normal-bottomleft" transform="translate(20,-21)">
   <rect style="opacity:0.001" width="3" height="3" x="1" y="80"/>
@@ -364,7 +365,7 @@
  </g>
  <g id="north-focus-bottom" transform="translate(21)">
   <rect style="opacity:0.001" width="14" height="3" x="3" y="38"/>
-  <path style="fill:#8ab4f8" d="m 3,38 v 1 1 h 14 v -1 -1 z"/>
+  <path style="opacity:0.1;fill:#dfdfdf" d="m 3,38 v 1 1 h 14 v -1 -1 z"/>
  </g>
  <g id="north-focus-left" transform="translate(20,-42)">
   <rect style="opacity:0.001" width="3" height="14" x="1" y="66"/>
@@ -393,11 +394,11 @@
  </g>
  <g id="north-focus-bottomleft" transform="translate(20,-42)">
   <rect style="opacity:0.001" width="3" height="3" x="1" y="80"/>
-  <path style="fill:#8ab4f8" d="m 2,80 v 2 c 0,0 0,0 1,0 H 4 V 81 80 H 3 Z"/>
+  <path style="opacity:0.1;fill:#dfdfdf" d="m 2,80 v 1 c 0,0 0,1 1,1 H 4 V 81 80 H 3 Z"/>
  </g>
  <g id="north-focus-bottomright" transform="translate(20,-42)">
   <rect style="opacity:0.001" width="3" height="3" x="18" y="80"/>
-  <path style="fill:#8ab4f8" d="m 18,80 v 1 1 h 2 c 0,0 0,0 0,-1 v -1 h -1 z"/>
+  <path style="opacity:0.1;fill:#dfdfdf" d="m 18,80 v 1 1 h 1 c 0,0 1,0 1,-1 v -1 h -1 z"/>
  </g>
  <g id="progress-top">
   <rect style="opacity:0.001" width="14" height="3" x="3" y="-3" transform="scale(1,-1)"/>
@@ -552,7 +553,7 @@
  </g>
  <g id="east-normal-topleft" transform="translate(41,-21)">
   <rect style="opacity:0.001" width="3" height="3" x="1" y="63"/>
-  <path style="opacity:0.1;fill:#dfdfdf" d="m 3,64 c -1,0 -1,0 -1,0 v 2 h 1 1 v -1 -1 z"/>
+  <path style="opacity:0.1;fill:#dfdfdf" d="m 3,64 c -1,0 -1,1 -1,1 v 1 h 1 1 v -1 -1 z"/>
   <path style="opacity:0.2;fill:#dfdfdf" d="m 2,64 v 2 h 1 v -1 -1 z"/>
  </g>
  <g id="east-normal-topright" transform="translate(41,-21)">
@@ -683,7 +684,7 @@
  </g>
  <g id="west-attention-topleft" transform="translate(62,21)">
   <rect style="opacity:0.001" width="3" height="3" x="1" y="63"/>
-  <path style="opacity:0.12;fill:#f44336" d="m 3,64 c -1,0 -1,1 -1,1 v 1 h 1 1 v -1 -1 z"/>
+  <path style="fill:#f44336" d="m 3,64 c -1,0 -1,1 -1,1 v 1 h 1 1 v -1 -1 z"/>
  </g>
  <g id="west-attention-topright" transform="translate(62,21)">
   <rect style="opacity:0.001" width="3" height="3" x="18" y="63"/>
